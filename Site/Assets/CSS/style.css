@@ -1,0 +1,186 @@
+/* CSS File */
+/* Color Pallete
+#e7feff
+#9ad1d4
+#80ced7
+#007ea7
+#003249
+-------------------------------*/
+
+
+/* Basic Page Styles
+-------------------------------*/
+body {
+    background-color: #e7feff;
+    font-family: sans-serif;
+    margin: 0;
+    word-spacing: 2px;
+}
+
+.f_inner {
+    background-color: #003249;
+    padding: 20px;
+    margin: 0;
+    min-width: 750px;
+}
+
+.p_inner {
+    background-color: #007ea7;
+}
+
+.p_inner h2 {
+    margin-right: 370px;
+    margin-left: 370px;
+    min-width: 750px;
+}
+
+.b_inner {
+    margin-right: 370px;
+    margin-left: 370px;
+    min-width: 750px;
+}
+
+header .h_inner {
+    margin-right: 370px;
+    margin-left: 370px;
+    min-width: 750px;
+}
+
+p_inner img {
+    margin-right: 50px;
+    margin-left: 50px;
+    min-width: 750px;
+}
+
+/* Header and Footer
+-------------------------------*/
+header,
+footer {
+    background-color: #003249;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #007ea7;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+/* Title and Navigation
+-------------------------------*/
+
+header h1 a {
+    color: #9ad1d4;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+header h1 a:hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+.nav a {
+    color: #007ea7;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #9ad1d4;
+}
+
+h1 {
+    display: inline-block;
+    width: 20%;
+}
+
+nav {
+    text-align: right;
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.nav li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+h1,
+.nav {
+    display: inline-block;
+}
+
+/* Pagae content - Headings
+-------------------------------*/
+main h2 {
+    font-size: 24px;
+}
+
+main h3 {
+    font-size: 20px;
+}
+
+main h2,
+main h3,
+.p_inner {
+    color: #003249;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+/* Page Content - Paragraphs and Lists
+----------------------------------*/
+main h2,
+main h3,
+p,
+main ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p_inner {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.p_inner h2 {
+    padding: 20px;
+}
+
+.pic01 {
+    width: 600px;
+}
+
+.pic02 {
+    width: 500px;
+    vertical-align: top;
+}
+
+pic03 {
+    width: 400px;
+    vertical-align: top;
+}
+
+.pic04 {
+    width: 500px;
+}
+
+.pic05 {
+    width: 500px;
+}
+
+.pic06 {
+    width: 500px;
+}
